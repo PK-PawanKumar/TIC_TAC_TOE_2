@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="1.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="maindiv">
+        <!-- left portion -->
+        <div id="left_portion">
+            <!-- heading -->
+            <div id="head">
+                <h1 id="heading">Welcome to <br>Tic-Tac-Toe Game!!!</h1>
+            </div>
+            <!-- scoreboard -->
+            <div id="scoreboard" onload="updateName()">
+                <h3 id="scoreBoardHeading">SCOREBOARD</h3>
+                <div id="showScore">
+                    <div id="plrX">
+                        <div id="name1">
+                            <h3 id="p1">Player-1</h3>
+                        </div>
+                        <div id="score1">0</div>
+                    </div>
+                    <div id="plrO">
+                        <div id="name2">
+                            <h3 id="p2">Player-2</h3>
+                        </div>
+                        <div id="score2">0</div>
+                    </div>
+                </div>
+            </div>
+            <!-- button -->
+            <div>
+                <div id="restartbtn">
+                    <button id="btn" onclick="ResetScore()">Reset Score</button>
+                </div>
+                <div id="restartbtn">
+                    <button id="btn" onclick="Restart()">Restart Game</button>
+                </div>
+            </div>
+        </div>
+        <!-- right portion -->
+        <div id="right_portion">
+            <!-- player's turn -->
+            <div class="plrmove">
+                <h3 style="color: rgb(251, 249, 250); padding-top: 15px; font-size: 30px;">player's turn</h3>
+                <button class="turn" id="X">X</button>
+                <button class="turn" id="O">O</button>
+            </div>
+            <!-- gameboard -->
+            <div id="gameboard">
+                <table id="table">
+                    <!-- row-1 -->
+                    <tr>
+                        <td><button class="cell" id="0" onclick="mkmove(this);">0</button></td>
+                        <td><button class="cell" id="1" onclick="mkmove(this);">1</button></td>
+                        <td><button class="cell" id="2" onclick="mkmove(this);">2</button></td>
+                    </tr>
+                    <!-- row-2 -->
+                    <tr>
+                        <td><button class="cell" id="3" onclick="mkmove(this);">3</button></td>
+                        <td><button class="cell" id="4" onclick="mkmove(this);">4</button></td>
+                        <td><button class="cell" id="5" onclick="mkmove(this);">5</button></td>
+                    </tr>
+                    <!-- row-3 -->
+                    <tr>
+                        <td><button class="cell" id="6" onclick="mkmove(this);">6</button></td>
+                        <td><button class="cell" id="7" onclick="mkmove(this);">7</button></td>
+                        <td><button class="cell" id="8" onclick="mkmove(this);">8</button></td>
+                    </tr>
+
+                </table>
+            </div>
+        </div>
+    </div>
+    <script src="1.js"></script>
+</body>
+
+</html>

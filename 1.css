@@ -1,0 +1,472 @@
+body
+{
+    background-image: url('background_image.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#maindiv
+{
+    /* background-color: rgb(95, 18, 18); */
+    width: 1200px;
+    height: 600px;
+    margin-top: 100px;
+    margin-left: 110px;
+    border-radius: 8px;
+}
+
+#left_portion
+{
+    float: left;
+    /* background-color: black; */
+    width: 450px;
+    height: 500px;
+    margin-top: 50px;
+    margin-left: 110px;
+    border-radius: 8px;
+    
+}
+
+#head
+{
+    margin-top: 40px;
+    text-align: center;
+    /* background-color: blue; */
+    border-radius: 8px;
+
+}
+
+#heading
+{
+    color: wheat;
+}
+
+#scoreboard
+{
+    margin-top: 30px;
+    text-align: center;
+    /* background-color: blue; */
+    height: 280px;
+    border: 1px solid orange;
+    border-radius: 8px;
+}
+
+#scoreBoardHeading
+{
+    padding-top: 0px;
+    font-size: 30px;
+    color: wheat;
+    border-radius: 8px;
+}
+
+#showScore
+{
+    background-color: rgb(201, 213, 67,0);
+    width: 400px;
+    height: 150px;
+    margin-left: 25px;
+    /* border: 1px solid orange; */
+    border-radius: 8px;
+}
+
+#plrX
+{
+    width: 400px;
+    height: 74px;
+    /* background-color: orchid; */
+    /* border-radius: 8px; */
+}
+
+#name1
+{
+    text-align: center;
+    float: left;
+    background-color: rgba(132, 177, 207, 0.489);
+    width: 250px;
+    height: 72px;
+    border-radius: 8px;
+    font-size: 20px;
+    color: wheat;
+}
+
+#score1
+{
+    text-align: center;
+    float: right;
+    background-color: yellow;
+    width: 140px;
+    height: 72px;
+    border-radius: 8px;
+    font-size: 60px;
+    color: rgb(15, 12, 6);
+}
+
+#name2
+{
+    float: left;
+    background-color: rgba(132, 177, 207, 0.489);
+    width: 250px;
+    height: 74px;
+    border-radius: 8px;
+    font-size: 20px;
+    color: wheat;
+}
+
+#score2
+{
+    float: right;
+    background-color: yellow;
+    width: 140px;
+    height: 72px;
+    border-radius: 8px;
+    font-size: 60px;
+    color: rgb(15, 12, 6);
+}
+
+#plrO
+{
+    margin-top: 2px;
+    width: 400px;
+    height: 72px;
+    /* background-color: orchid; */
+}
+
+#restartbtn
+{
+    margin-left: 20px;
+    float: left;
+    text-align: center;
+    /* background-color: red; */
+    height: 70px;
+    border-radius: 8px;
+    width: 200px;
+}
+
+#btn
+{
+    margin-top: 15px;
+    width: 180px;
+    height: 40px;
+    border-radius: 8px;
+    font-size: 20px;
+}
+
+btn:hover
+{
+    background-color: black;
+    color: wheat;
+}
+
+#right_portion
+{
+    float: right;
+    /* background-color: black; */
+    width: 450px;
+    height: 500px;
+    margin-top: 50px;
+    margin-right: 110px;
+    border-radius: 6px;
+}
+
+.plrmove
+{
+    text-align: center;
+    /* background-color: tomato; */
+    height: 140px;
+    border-radius: 8px;
+}
+
+.turn
+{
+    width: 150px;
+    height: 50px;
+    margin-bottom: 4px;
+    border-radius: 4px;
+    font-size: 30px;
+}
+
+#gameboard
+{
+    /* background-color: tomato; */
+    width: 300px;
+    height: 300px;
+    margin-top: 5px;
+    margin-left: 50px;
+    border-radius: 6px;
+}
+
+#table
+{
+    /* background-color: turquoise; */
+    width: 300px;
+    height: 300px;
+    border-radius: 6px;
+}
+
+.cell
+{
+    width: 112px;
+    height: 103px;
+    border-radius: 6px;
+    font-size: 50px;
+    color: rgb(177, 177, 152,0);
+    background-color: rgb(109, 109, 80,0);
+}
+
+.cell:hover
+{
+    background-color: tomato;
+}
+
+#X
+{
+    background-color: greenyellow;
+}
+#O
+{
+    background-color: tomato;
+}
+
+
+
+@media only screen and (max-width:600px)
+{
+    body
+{
+    background-image: url('background_image.jpg');
+    /* background-position: center; */
+    background-repeat: repeat-y;
+    /* background-size; */
+}
+
+#maindiv
+{
+    /* background-color: rgb(95, 18, 18); */
+    width: 400px;
+    height: 700px;
+    margin-top: 10px;
+    margin-left: 10px;
+    border-radius: 8px;
+}
+
+#left_portion
+{
+    float: left;
+    /* background-color: black; */
+    width: 400px;
+    height: 300px;
+    margin-top: 5px;
+    margin-left: 0px;
+    border-radius: 8px;
+    
+}
+
+#head
+{
+    margin-top: 0px;
+    text-align: center;
+    /* background-color: blue; */
+    border-radius: 8px;
+
+}
+
+#heading
+{
+    color: wheat;
+    font-size: 30px;
+}
+
+#scoreboard
+{
+    margin-top: 0px;
+    text-align: center;
+    /* background-color: blue; */
+    height: 200px;
+    border: 1px solid orange;
+    border-radius: 8px;
+    margin-right: 4px;
+}
+
+#scoreBoardHeading
+{
+    padding-top: 0px;
+    font-size: 20px;
+    color: wheat;
+    border-radius: 8px;
+}
+
+#showScore
+{
+    background-color: rgb(201, 213, 67,0);
+    width: 200px;
+    height: 100px;
+    margin-left:0px;
+    /* border: 1px solid orange; */
+    border-radius: 8px;
+}
+
+#plrX
+{
+    width: 400px;
+    height: 35px;
+    /* background-color: orchid; */
+    /* border-radius: 8px; */
+}
+
+#name1
+{
+    text-align: center;
+    float: left;
+    background-color: rgba(132, 177, 207, 0.489);
+    width: 150px;
+    height: 45px;
+    border-radius: 8px;
+    font-size: 14px;
+    color: wheat;
+    margin-left: 50px;
+}
+
+#score1
+{
+    text-align: center;
+    float: right;
+    background-color: yellow;
+    width: 110px;
+    height: 45px;
+    border-radius: 8px;
+    font-size: 40px;
+    color: rgb(15, 12, 6);
+    margin-right: 50px;
+}
+
+#name2
+{
+    float: left;
+    background-color: rgba(132, 177, 207, 0.489);
+    width: 150px;
+    height: 45px;
+    border-radius: 8px;
+    font-size: 14px;
+    color: wheat;
+    margin-left: 50px;
+    margin-top: 2px;
+}
+
+#score2
+{
+    float: right;
+    background-color: yellow;
+    width: 110px;
+    height: 45px;
+    border-radius: 8px;
+    font-size: 40px;
+    color: rgb(15, 12, 6);
+    margin-right: 50px;
+    margin-top: 2px;
+}
+
+#plrO
+{
+    margin-top: 2px;
+    width: 400px;
+    height: 72px;
+    /* background-color: orchid; */
+}
+
+#restartbtn
+{
+    margin-left: 0px;
+    float: left;
+    text-align: center;
+    /* background-color: red; */
+    height: 70px;
+    border-radius: 8px;
+    width: 200px;
+}
+
+#btn
+{
+    margin-top: 15px;
+    width: 180px;
+    height: 40px;
+    border-radius: 8px;
+    font-size: 20px;
+}
+
+btn:hover
+{
+    background-color: black;
+    color: wheat;
+}
+
+#right_portion
+{
+    float: right;
+    /* background-color: black; */
+    width: 400px;
+    height: 400px;
+    margin-top: 80px;
+    margin-right: 10px;
+    border-radius: 6px;
+}
+
+.plrmove
+{
+    text-align: center;
+    /* background-color: tomato; */
+    height: 100px;
+    border-radius: 8px;
+}
+
+.turn
+{
+    width: 150px;
+    height: 50px;
+    margin-bottom: 4px;
+    border-radius: 4px;
+    font-size: 30px;
+}
+
+#gameboard
+{
+    /* background-color: tomato; */
+    width: 350px;
+    height: 350px;
+    margin-top: 45px;
+    margin-left: 25px;
+    border-radius: 6px;
+}
+
+#table
+{
+    /* background-color: turquoise; */
+    width: 300px;
+    height: 300px;
+    border-radius: 6px;
+}
+
+.cell
+{
+    width: 112px;
+    height: 103px;
+    border-radius: 6px;
+    font-size: 50px;
+    color: rgb(177, 177, 152,0);
+    background-color: rgb(109, 109, 80,0);
+}
+
+.cell:hover
+{
+    background-color: tomato;
+}
+
+#X
+{
+    background-color: greenyellow;
+}
+#O
+{
+    background-color: tomato;
+}
+}

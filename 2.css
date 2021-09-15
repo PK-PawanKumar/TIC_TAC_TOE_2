@@ -1,0 +1,584 @@
+body
+{
+    background-image: url('background_image.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* opacity: .1%; */
+}
+
+#center
+{
+    background-color: rgba(72, 72, 151, 0.356);
+    width: 1000px;
+    height: 720px;
+    margin-top: 35px;
+    margin-left: 210px;
+    border-radius: 8px;
+}
+
+#homePageHeading
+{
+    position:fixed;
+    /* background-color: green; */
+    width: 800px;
+    height: 130px;
+    margin-top: 35px;
+    margin-left: 100px;
+    border-radius: 8px;
+    /* border: 1px solid tomato; */
+}
+
+#heading
+{
+    color: wheat;
+    text-align: center;
+    margin-top: 35px;
+    font-size: 55px;
+    
+}
+
+#form
+{
+    position:fixed;
+    /* background-color: rgb(128, 0, 128); */
+    width: 800px;
+    height: 410px;
+    margin-top: 175px;
+    margin-left: 100px;
+    border-radius: 8px;
+}
+
+#startForm
+{
+    position:fixed;
+    /* background-color: rgb(128, 119, 0); */
+    width: 650px;
+    height: 310px;
+    margin-top: 50px;
+    margin-left: 75px;
+    border-radius: 8px;
+}
+
+#mode
+{
+    position:fixed;
+    /* background-color: rgb(100, 200, 95); */
+    width: 600px;
+    height: 140px;
+    margin-top: 10px;
+    margin-left: 25px;
+    border-radius: 8px;
+}
+
+#mode_heading
+{
+    position:fixed;
+    /* background-color: rgb(1, 7, 1); */
+    width: 590px;
+    height: 70px;
+    margin-top: 5px;
+    margin-left: 5px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+#mode_head
+{
+    color: wheat;
+    text-align: center;
+    font-size: 30px;
+}
+
+#mode_option
+{
+    position:fixed;
+    background-color: rgb(1, 7, 1);
+    width: 590px;
+    height: 60px;
+    margin-top: 76px;
+    margin-left: 5px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+#single
+{
+    background-color: wheat;
+    margin-top: 2px;
+    margin-left: 3px;
+    float: left;
+    width: 290px;
+    height: 55px;
+    border-radius: 6px;
+    font-size: 20px;
+}
+
+#single:hover
+{
+    /* background-color: black; */
+    color: tomato;
+}
+
+#double
+{
+    background-color: wheat;
+    margin-top: 2px;
+    margin-right: 3px;
+    float: right;
+    width: 290px;
+    height: 55px;
+    border-radius: 6px;
+    font-size: 20px;
+}
+
+#double:hover
+{
+    /* background-color: black; */
+    color:tomato;
+}
+
+#select_heading
+{
+    position:fixed;
+    /* background-color: rgb(1, 7, 1); */
+    width: 590px;
+    height: 70px;
+    margin-top: 5px;
+    margin-left: 5px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+#select_head
+{
+
+    color: wheat;
+    text-align: center;
+    font-size: 30px;
+}
+
+#select_option
+{
+    position:fixed;
+    background-color: rgb(1, 7, 1);
+    width: 590px;
+    height: 60px;
+    margin-top: 76px;
+    margin-left: 5px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+#selectX
+{
+    background-color: wheat;
+    margin-top: 2px;
+    margin-left: 3px;
+    float: left;
+    width: 290px;
+    height: 55px;
+    border-radius: 6px;
+    font-size: 20px;
+}
+
+#selectX:hover
+{
+    /* background-color: black; */
+    color:tomato;
+}
+
+#selectO
+{
+    background-color: wheat;
+    margin-top: 2px;
+    margin-right: 3px;
+    float: right;
+    width: 290px;
+    height: 55px;
+    border-radius: 6px;
+    font-size: 20px;
+}
+
+#selectO:hover
+{
+    /* background-color: black; */
+    color:tomato;
+}
+
+#start_option
+{
+    position:fixed;
+    /* background-color: rgb(100, 200, 95); */
+    width: 600px;
+    height: 140px;
+    margin-top: 160px;
+    margin-left: 25px;
+    border-radius: 8px;
+}
+
+#buttons
+{
+    position:fixed;
+    /* background-color: rgb(128, 0, 0); */
+    width: 800px;
+    height: 100px;
+    margin-top: 592px;
+    margin-left: 100px;
+    border-radius: 8px;
+}
+
+#left
+{
+    position:fixed;
+    /* background-color: rgb(0, 128, 107); */
+    width: 390px;
+    height: 90px;
+    margin-top: 596px;
+    margin-left: 104px;
+    border-radius: 8px;
+    text-align: center;
+    
+}
+
+#play
+{
+    text-align: center;
+    width: 150px;
+    height: 50px;
+    margin-top: 20px;
+    border-radius: 6px;
+    font-size: 20px;
+    float: right;
+}
+
+#play:hover
+{
+    background-color: rgb(10, 2, 1);
+    color: wheat;
+}
+
+#right
+{
+    position:fixed;
+    /* background-color: rgb(0, 128, 107); */
+    width: 390px;
+    height: 90px;
+    margin-top: 596px;
+    margin-left: 504px;
+    border-radius: 8px;
+}
+
+#reset_details
+{
+    text-align: center;
+    width: 150px;
+    height: 50px;
+    margin-top: 20px;
+    border-radius: 6px;
+    margin-left: 0px;
+    font-size: 20px;
+    float: left;
+}
+
+#reset_details:hover
+{
+    background-color: rgb(10, 2, 1);
+    color: wheat;
+}
+
+/*  mobile view */
+@media only screen and (max-width:900px)
+{
+    body
+    {
+        /* background-color: tomato; */
+        background-image: url('background_image.jpg');
+        background-position: left;
+        background-repeat: repeat;
+        background-size: cover;
+    }
+
+
+    #center
+    {
+        /* background-color: rgba(72, 72, 151); */
+        width: 400px;
+        height: 690px;
+        border-radius: 8px;
+       margin-left: 00px;
+    }
+
+    #homePageHeading
+    {
+        /* position:fixed; */
+        /* background-color: green; */
+        width: 400px;
+        height: 130px;
+        margin-top: 0px;
+        margin-left: 0px;
+        border-radius: 8px;
+        /* border: 1px solid tomato; */
+    }
+
+    #heading
+    {
+        color: wheat;
+        text-align: center;
+        margin-top: 35px;
+        font-size: 55px;
+        
+    }
+    #form
+    {
+        /* position:fixed; */
+        /* background-color: rgb(128, 0, 128); */
+        width: 400px;
+        height: 400px;
+        margin-top: 150px;
+        margin-left: 0px;
+        border-radius: 8px;
+    }
+
+    #startForm
+    {
+        /* position:fixed; */
+        /* background-color: rgb(128, 119, 0); */
+        width: 370px;
+        height: 370px;
+        margin-top: 15px;
+        margin-left: 15px;
+        border-radius: 8px;
+    }
+
+    #mode
+    {
+        /* position:fixed; */
+        /* background-color: rgb(100, 200, 95); */
+        width: 360px;
+        height: 140px;
+        margin-top: 5px;
+        margin-left: 5px;
+        border-radius: 8px;
+    }
+
+    #mode_heading
+    {
+        /* position:fixed; */
+        /* background-color: rgb(1, 7, 1); */
+        width: 360px;
+        height: 70px;
+        margin-top: 3px;
+        margin-left: 5px;
+        border-radius: 8px;
+        text-align: center;
+    }
+
+    #mode_head
+    {
+        color: wheat;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    #mode_option
+    {
+        /* position:fixed; */
+        background-color: rgb(1, 7, 1);
+        width: 360px;
+        height: 60px;
+        margin-top: 76px;
+        margin-left: 5px;
+        border-radius: 8px;
+        text-align: center;
+    }
+
+    #single
+    {
+        background-color: wheat;
+        margin-top: 2px;
+        margin-left: 1px;
+        float: left;
+        width: 177px;
+        height: 55px;
+        border-radius: 6px;
+        font-size: 20px;
+    }
+
+    #single:hover
+    {
+        /* background-color: black; */
+        color: tomato;
+    }
+
+    #double
+    {
+        background-color: wheat;
+        margin-top: 2px;
+        margin-right: 3px;
+        float: left;
+        width: 177px;
+        height: 55px;
+        border-radius: 6px;
+        font-size: 20px;
+    }
+
+    #double:hover
+    {
+        /* background-color: black; */
+        color:tomato;
+    }
+
+    #select_heading
+    {
+        /* position:fixed; */
+        /* background-color: rgb(1, 7, 1); */
+        width: 356px;
+        height: 65px;
+        margin-top: 4px;
+        margin-left: 2px;
+        border-radius: 8px;
+        text-align: center;
+    }
+
+    #select_head
+    {
+
+        color: wheat;
+        text-align: center;
+        font-size: 25px;
+        margin-bottom: 2px;
+    }
+
+    #select_option
+    {
+        /* position:fixed; */
+        /* background-color: rgb(1, 7, 1); */
+        width: 360px;
+        height: 60px;
+        margin-top: 70px;
+        margin-left: 2px;
+        border-radius: 8px;
+        text-align: center;
+    }
+
+    #selectX
+    {
+        background-color: wheat;
+        margin-top: 4px;
+        margin-left: 2px;
+        float: left;
+        width: 176px;
+        height: 55px;
+        border-radius: 6px;
+        font-size: 20px;
+    }
+
+    #selectX:hover
+    {
+        /* background-color: black; */
+        color:tomato;
+    }
+
+    #selectO
+    {
+        background-color: wheat;
+        margin-top: 4px;
+        margin-right: 0px;
+        margin-left: 2px;
+        float: left;
+        width: 176px;
+        height: 55px;
+        border-radius: 6px;
+        font-size: 20px;
+    }
+
+    #selectO:hover
+    {
+        /* background-color: black; */
+        color:tomato;
+    }
+
+    #start_option
+    {
+        /* position:fixed; */
+        /* background-color: rgb(100, 200, 95); */
+        width: 360px;
+        height: 140px;
+        margin-top: 160px;
+        margin-left: 5px;
+        border-radius: 8px;
+    }
+
+    #buttons
+    {
+        /* position:fixed; */
+        /* background-color: rgb(128, 0, 0); */
+        width: 390px;
+        height: 100px;
+        margin-top: 560px;
+        margin-left: 2px;
+        border-radius: 8px;
+    }
+
+    #left
+    {
+        /* position:fixed; */
+        /* background-color: rgb(0, 128, 107); */
+        width: 170px;
+        height: 70px;
+        margin-top: 575px;
+        margin-left:20px;
+        border-radius: 8px;
+        text-align: center;
+        
+    }
+
+    #play
+    {
+        text-align: center;
+        width: 150px;
+        height: 50px;
+        margin-top: 10px;
+        border-radius: 6px;
+        font-size: 20px;
+        float: right;
+    }
+
+    #play:hover
+    {
+        background-color: rgb(10, 2, 1);
+        color: wheat;
+    }
+
+    #right
+    {
+        /* position:fixed; */
+        /* background-color: rgb(0, 128, 107); */
+        width: 170px;
+        height: 70px;
+        margin-top: 575px;
+        margin-left: 210px;
+        border-radius: 8px;
+    }
+
+    #reset_details
+    {
+        text-align: center;
+        width: 150px;
+        height: 50px;
+        margin-top: 10px;
+        border-radius: 6px;
+        margin-left: 0px;
+        font-size: 20px;
+        float: left;
+    }
+
+    #reset_details:hover
+    {
+        background-color: rgb(10, 2, 1);
+        color: wheat;
+    }
+    
+}
+
