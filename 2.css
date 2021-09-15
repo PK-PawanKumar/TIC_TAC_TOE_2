@@ -543,6 +543,7 @@ body
         border-radius: 6px;
         font-size: 20px;
         float: right;
+        background-color: wheat;
     }
 
     #play:hover
@@ -572,6 +573,7 @@ body
         margin-left: 0px;
         font-size: 20px;
         float: left;
+        background-color: wheat;
     }
 
     #reset_details:hover
